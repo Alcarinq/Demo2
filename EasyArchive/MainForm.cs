@@ -37,7 +37,7 @@ namespace EasyArchive
             _activityLogger.Show("Button Add Clicked !");
             if (string.IsNullOrEmpty(tbLogin.Text))
             {
-                MessageBox.Show("Login Text Area is empty !");
+                MessageBox.Show("Login TEXT Area is empty !");
                 /*
                  * 
                  * add user to rep
