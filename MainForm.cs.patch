@@ -1,0 +1,13 @@
+Index: EasyArchive/MainForm.cs
+===================================================================
+--- EasyArchive/MainForm.cs	(revision 18)
++++ EasyArchive/MainForm.cs	(working copy)
+@@ -48,7 +48,7 @@
+             }
+  			else if (CheckLoginIsUnique())
+             {
+-                MessageBox.Show("Podany login nie jest unikalny");
++                MessageBox.Show("Podany login NIE jest unikalny");
+                 return;
+             }
+         }
